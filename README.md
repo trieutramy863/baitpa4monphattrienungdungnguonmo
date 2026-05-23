@@ -236,3 +236,14 @@ Add field (Thêm thuộc tính): Status == Publish (bài đăng sẽ ở trạng
 PUBLISH flow (góc trên phải) Nút này thực hiện việc xuất bản flow <=> flow sẽ tự động thực thi khi thoả mãn điều kiện trigger
 
 <img width="1920" height="1200" alt="Screenshot 2026-05-23 103631" src="https://github.com/user-attachments/assets/254b3a33-94f7-449f-a1a0-34e91405894b" />
+
+
+
+# Nhận xét thành quả đạt được!!!
+Sau khi hoàn thành bài tập, em đã triển khai thành công hệ thống WordPress trên Ubuntu bằng Docker Compose với các service gồm MariaDB, PhpMyAdmin, WordPress, Cloudflared và n8n. Các container hoạt động ổn định và có thể truy cập từ Internet thông qua subdomain bằng Cloudflare Tunnel.
+
+Trong quá trình thực hiện, em đã cài đặt và cấu hình WordPress thành công, kiểm tra cơ sở dữ liệu bằng PhpMyAdmin và tạo được các bài viết theo yêu cầu của đề bài. Đồng thời, em cũng cấu hình n8n kết hợp với Telegram Bot và Google Gemini AI để xây dựng hệ thống tự động tạo và đăng bài lên WordPress.
+
+Tuy nhiên, trong quá trình làm bài em cũng gặp một số lỗi như lỗi cấu hình Cloudflare Tunnel, lỗi route DNS bị trùng, lỗi kết nối giữa n8n với Telegram/Gemini và một số lỗi trong quá trình cấu hình workflow. Ngoài ra, có lúc workflow không hoạt động đúng do chưa publish hoặc lỗi credential bị mất kết nối. Sau khi tìm hiểu tài liệu và kiểm tra lại cấu hình từng bước, em đã khắc phục được các lỗi trên và hệ thống hoạt động ổn định.
+
+Kết quả cuối cùng đạt được là chỉ cần gửi nội dung qua Telegram, hệ thống sẽ tự động gửi yêu cầu đến Gemini AI để tạo nội dung bài viết, xử lý dữ liệu bằng JavaScript và đăng trực tiếp lên website WordPress. Qua bài tập này, em hiểu rõ hơn về Docker, Docker Compose, Cloudflare Tunnel, n8n automation cũng như cách tích hợp AI vào một bài toán thực tế.
