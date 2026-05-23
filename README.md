@@ -236,7 +236,8 @@ Add field (Thêm thuộc tính): Status == Publish (bài đăng sẽ ở trạng
 PUBLISH flow (góc trên phải) Nút này thực hiện việc xuất bản flow <=> flow sẽ tự động thực thi khi thoả mãn điều kiện trigger
 
 <img width="1920" height="1200" alt="Screenshot 2026-05-23 103631" src="https://github.com/user-attachments/assets/254b3a33-94f7-449f-a1a0-34e91405894b" />
-
+- f5 wordpress để thấy bài viết mới đã lên sóng.
+<img width="1920" height="1200" alt="Screenshot 2026-05-23 103747" src="https://github.com/user-attachments/assets/4d3a039d-5ca8-439d-b3c1-1f3557552f57" />
 
 
 # Nhận xét thành quả đạt được!!!
